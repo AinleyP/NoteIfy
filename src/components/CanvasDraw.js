@@ -10,8 +10,6 @@ const drawWhiteKeys = (props) => {
 
 const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
 
-
-
     //var canvas = document.getElementById("pianoBoard");
     var ctx = canvas.getContext('2d');
     ctx.scale(scaleX, scaleY);
@@ -60,9 +58,14 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
     const pianoNoteSelectedColor = "#1ba7d1";
     const pianoNoteSelectedShadowColor = "#010059";
 
+    ctx.fillStyle = "#efb4b4";
+    ctx.fillRect(0, 0, canvasW, canvasH);
+
+
     //Draw canvas background
     ctx.fillStyle = primaryBackgroundColor;
-    ctx.fillRect(0, 0, canvasW, canvasH);
+    ctx.fillRect(0, 0, canvasW, canvasH / 2);
+
 
     //Draw keyboard background
     ctx.fillStyle = pianoKeyboardColor;
