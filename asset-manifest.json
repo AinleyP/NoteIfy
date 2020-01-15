@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AinleyP/NoteIfy/static/css/main.f073c506.chunk.css",
-    "main.js": "/AinleyP/NoteIfy/static/js/main.6032f89d.chunk.js",
-    "main.js.map": "/AinleyP/NoteIfy/static/js/main.6032f89d.chunk.js.map",
-    "runtime-main.js": "/AinleyP/NoteIfy/static/js/runtime-main.dc682b04.js",
-    "runtime-main.js.map": "/AinleyP/NoteIfy/static/js/runtime-main.dc682b04.js.map",
-    "static/js/2.feb4361b.chunk.js": "/AinleyP/NoteIfy/static/js/2.feb4361b.chunk.js",
-    "static/js/2.feb4361b.chunk.js.map": "/AinleyP/NoteIfy/static/js/2.feb4361b.chunk.js.map",
-    "index.html": "/AinleyP/NoteIfy/index.html",
-    "precache-manifest.d01231f77f479ce15bf822ecbf596c0e.js": "/AinleyP/NoteIfy/precache-manifest.d01231f77f479ce15bf822ecbf596c0e.js",
-    "service-worker.js": "/AinleyP/NoteIfy/service-worker.js",
-    "static/css/main.f073c506.chunk.css.map": "/AinleyP/NoteIfy/static/css/main.f073c506.chunk.css.map",
-    "static/js/2.feb4361b.chunk.js.LICENSE": "/AinleyP/NoteIfy/static/js/2.feb4361b.chunk.js.LICENSE"
+    "main.css": "/notify.github.io/static/css/main.f073c506.chunk.css",
+    "main.js": "/notify.github.io/static/js/main.356f9638.chunk.js",
+    "main.js.map": "/notify.github.io/static/js/main.356f9638.chunk.js.map",
+    "runtime-main.js": "/notify.github.io/static/js/runtime-main.e0652a8f.js",
+    "runtime-main.js.map": "/notify.github.io/static/js/runtime-main.e0652a8f.js.map",
+    "static/js/2.feb4361b.chunk.js": "/notify.github.io/static/js/2.feb4361b.chunk.js",
+    "static/js/2.feb4361b.chunk.js.map": "/notify.github.io/static/js/2.feb4361b.chunk.js.map",
+    "index.html": "/notify.github.io/index.html",
+    "precache-manifest.0854d2d32cb7782bdf2c5ca878a6e5d2.js": "/notify.github.io/precache-manifest.0854d2d32cb7782bdf2c5ca878a6e5d2.js",
+    "service-worker.js": "/notify.github.io/service-worker.js",
+    "static/css/main.f073c506.chunk.css.map": "/notify.github.io/static/css/main.f073c506.chunk.css.map",
+    "static/js/2.feb4361b.chunk.js.LICENSE": "/notify.github.io/static/js/2.feb4361b.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc682b04.js",
+    "static/js/runtime-main.e0652a8f.js",
     "static/js/2.feb4361b.chunk.js",
     "static/css/main.f073c506.chunk.css",
-    "static/js/main.6032f89d.chunk.js"
+    "static/js/main.356f9638.chunk.js"
   ]
 }
