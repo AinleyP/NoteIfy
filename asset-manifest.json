@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AinleyP/NoteIfy/static/css/main.f073c506.chunk.css",
+    "main.js": "/AinleyP/NoteIfy/static/js/main.6032f89d.chunk.js",
+    "main.js.map": "/AinleyP/NoteIfy/static/js/main.6032f89d.chunk.js.map",
+    "runtime-main.js": "/AinleyP/NoteIfy/static/js/runtime-main.dc682b04.js",
+    "runtime-main.js.map": "/AinleyP/NoteIfy/static/js/runtime-main.dc682b04.js.map",
+    "static/js/2.feb4361b.chunk.js": "/AinleyP/NoteIfy/static/js/2.feb4361b.chunk.js",
+    "static/js/2.feb4361b.chunk.js.map": "/AinleyP/NoteIfy/static/js/2.feb4361b.chunk.js.map",
+    "index.html": "/AinleyP/NoteIfy/index.html",
+    "precache-manifest.d01231f77f479ce15bf822ecbf596c0e.js": "/AinleyP/NoteIfy/precache-manifest.d01231f77f479ce15bf822ecbf596c0e.js",
+    "service-worker.js": "/AinleyP/NoteIfy/service-worker.js",
+    "static/css/main.f073c506.chunk.css.map": "/AinleyP/NoteIfy/static/css/main.f073c506.chunk.css.map",
+    "static/js/2.feb4361b.chunk.js.LICENSE": "/AinleyP/NoteIfy/static/js/2.feb4361b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc682b04.js",
+    "static/js/2.feb4361b.chunk.js",
+    "static/css/main.f073c506.chunk.css",
+    "static/js/main.6032f89d.chunk.js"
+  ]
+}
