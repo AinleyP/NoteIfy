@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/notify.github.io/static/css/main.f073c506.chunk.css",
-    "main.js": "/notify.github.io/static/js/main.356f9638.chunk.js",
-    "main.js.map": "/notify.github.io/static/js/main.356f9638.chunk.js.map",
-    "runtime-main.js": "/notify.github.io/static/js/runtime-main.e0652a8f.js",
-    "runtime-main.js.map": "/notify.github.io/static/js/runtime-main.e0652a8f.js.map",
-    "static/js/2.feb4361b.chunk.js": "/notify.github.io/static/js/2.feb4361b.chunk.js",
-    "static/js/2.feb4361b.chunk.js.map": "/notify.github.io/static/js/2.feb4361b.chunk.js.map",
-    "index.html": "/notify.github.io/index.html",
-    "precache-manifest.0854d2d32cb7782bdf2c5ca878a6e5d2.js": "/notify.github.io/precache-manifest.0854d2d32cb7782bdf2c5ca878a6e5d2.js",
-    "service-worker.js": "/notify.github.io/service-worker.js",
-    "static/css/main.f073c506.chunk.css.map": "/notify.github.io/static/css/main.f073c506.chunk.css.map",
-    "static/js/2.feb4361b.chunk.js.LICENSE": "/notify.github.io/static/js/2.feb4361b.chunk.js.LICENSE"
+    "main.css": "/AinleyP/noteify.github.io/static/css/main.f073c506.chunk.css",
+    "main.js": "/AinleyP/noteify.github.io/static/js/main.713cb587.chunk.js",
+    "main.js.map": "/AinleyP/noteify.github.io/static/js/main.713cb587.chunk.js.map",
+    "runtime-main.js": "/AinleyP/noteify.github.io/static/js/runtime-main.5f2168e0.js",
+    "runtime-main.js.map": "/AinleyP/noteify.github.io/static/js/runtime-main.5f2168e0.js.map",
+    "static/js/2.feb4361b.chunk.js": "/AinleyP/noteify.github.io/static/js/2.feb4361b.chunk.js",
+    "static/js/2.feb4361b.chunk.js.map": "/AinleyP/noteify.github.io/static/js/2.feb4361b.chunk.js.map",
+    "index.html": "/AinleyP/noteify.github.io/index.html",
+    "precache-manifest.9695f3fb706a5d83719f94ff7ad61098.js": "/AinleyP/noteify.github.io/precache-manifest.9695f3fb706a5d83719f94ff7ad61098.js",
+    "service-worker.js": "/AinleyP/noteify.github.io/service-worker.js",
+    "static/css/main.f073c506.chunk.css.map": "/AinleyP/noteify.github.io/static/css/main.f073c506.chunk.css.map",
+    "static/js/2.feb4361b.chunk.js.LICENSE": "/AinleyP/noteify.github.io/static/js/2.feb4361b.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0652a8f.js",
+    "static/js/runtime-main.5f2168e0.js",
     "static/js/2.feb4361b.chunk.js",
     "static/css/main.f073c506.chunk.css",
-    "static/js/main.356f9638.chunk.js"
+    "static/js/main.713cb587.chunk.js"
   ]
 }
