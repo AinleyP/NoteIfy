@@ -1,36 +1,55 @@
 .outer {
     display: table;
-    position: absolute;
+
     height: 100%;
     width: 100%;
-    /* padding: 0;  */
+    padding: 0; 
+    position: fixed;
+    z-index:1000;
+    
+
 }
   
 .middle {
     display: table-cell;
     vertical-align: middle; 
 }
+
+h2 {
+    text-align: center;
+}
   
 .inner {
     margin-left: auto;
     margin-right: auto;
-    width: 210px;
-    margin-bottom: 290px; 
+    width: 250px;
+    margin-bottom: 370px; 
+}
+
+.textboxstyle {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[type="text"] {
     color: #000;
     background: none;
     display: block;
-    width: 100%;
-    font-size: 1.8em;
+    width: 50%;
+    font-size: 1.7em;
     box-shadow: none;
-    border-radius: none; 
-    border: none;}
+    border: 3px solid #efb4b4;
+    border-radius: 4px;
+    box-sizing:border-box;
+    
+}
 
 canvas {
-    widows: 100%;
+    width: 100%;
     height: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
+ 
 
 }

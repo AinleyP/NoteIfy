@@ -13,9 +13,6 @@ class Display extends Component {
     handleInputChange(event) {
         const value = event.target.value;
         this.setState({ text: value });
-        // console.log(value);
-        // console.log(this.state);
-
     }
 
     render() {
@@ -26,16 +23,19 @@ class Display extends Component {
             <div>
                 <div className="outer">
                     <div className="middle">
+
                         <div className="inner">
+                            <h2>♪ Type in a chord! ♪</h2>
                             <input
+                                className="textboxstyle"
                                 ref='input'
                                 id="query"
                                 type="text"
                                 spellCheck="false"
-                                placeholder="Type in a chord!"
                                 autoComplete="off"
                                 onChange={this.handleInputChange}
                                 value={this.state.text}
+                                autofocus
 
                             />
                         </div>

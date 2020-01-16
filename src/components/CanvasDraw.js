@@ -17,8 +17,8 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
 
     const canvasW = window.innerWidth;
     const canvasH = window.innerHeight;
-    const pianoW = 550;
-    const pianoH = 180;
+    const pianoW = 700;
+    const pianoH = 170;
     const pianoX = (canvasW / 2) - (pianoW / 2);
     const pianoY = (canvasH / 2) - (pianoH / 2);
 
@@ -33,7 +33,7 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
     const keyboardContainerY = pianoY + keyboardContainerTopPadding;
     const keyboardContainerWidth = pianoW - (keyboardContainerSidePadding * 2);
     const keyboardContainerHeight = pianoH - (keyboardContainerTopPadding + keyboardContainerBottomPadding);
-    const totalOctaves = 2;
+    const totalOctaves = 3;
     const notesPerOctave = 12;
     const whiteNoteIndexes = [1, 3, 5, 6, 8, 10, 12];
     const blackNoteIndexes = [2, 4, 7, 9, 11];
@@ -50,13 +50,13 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
     const pianoWhiteNoteColor = "white";
     const pianoBlackNoteColor = "black"
 
-    const primaryBackgroundColor = "#f1d4d4"; //purple
-    const pianoKeyboardColor = "#ac8daf";
-    const pianoShadowColor = "#010059";
+    const primaryBackgroundColor = "#f1d4d4";
+    const pianoKeyboardColor = "#7a7a7a";
+    const pianoShadowColor = "#3f3f3f";
     const pianoHighlightColor = "#484c7f";
-    const pianoKeybedBackgroundColor = "#484c7f";
+    const pianoKeybedBackgroundColor = "#9a9a9a";
     const pianoNoteSelectedColor = "#1ba7d1";
-    const pianoNoteSelectedShadowColor = "#010059";
+    const pianoNoteSelectedShadowColor = "#3f3f3f";
 
     ctx.fillStyle = "#efb4b4";
     ctx.fillRect(0, 0, canvasW, canvasH);
@@ -179,6 +179,14 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
                     ctx.fillRect(x, y, w, h);
                 }
 
+                if (indexToCheck === data[selectedNote.text][0]) {
+                    ctx.fillStyle = "white";
+                    ctx.beginPath();
+                    ctx.arc(x + w / 2, y + h - 15, 6, 0, Math.PI * 5, false);
+                    ctx.closePath();
+                    ctx.fill();
+                }
+
                 //Draw top shadow
                 ctx.fillStyle = pianoNoteSelectedShadowColor;
                 ctx.fillRect(x, y, w, 2);
@@ -198,7 +206,6 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
 }
 
 const CanvasDraw = (props) => {
-    console.log(props.testState);
     const selectedNote = props.testState;
     const [scale, setScale] = React.useState({ x: 1, y: 1 });
     const canvas = React.useRef(null);
@@ -212,7 +219,7 @@ const CanvasDraw = (props) => {
         setScale({ x: calculateScaleX(), y: calculateScaleY() });
     };
 
-    // useEffect(() => resized(), []);
+    //useEffect(() => resized(), []);
 
     useEffect(() => {
         const currentCanvas = canvas.current;
@@ -221,10 +228,8 @@ const CanvasDraw = (props) => {
     });
 
     useEffect(() => {
-        // console.log(drawingProps);
         drawingPiano(canvas.current, scale.x, scale.y, selectedNote);
     }, [scale, selectedNote]);
-
 
     return <canvas ref={canvas} style={{ width: "100%", height: "100%" }} />;
 }
