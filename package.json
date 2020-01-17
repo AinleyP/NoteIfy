@@ -1,5 +1,5 @@
 {
-  "homepage": "http://github.com/AinleyP/noteify.github.io/",
+  "homepage": "http://ainleyp-note-ify.s3-website-us-east-1.amazonaws.com",
   "name": "noteify",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "aws s3 sync build/ s3://ainleyp-note-ify --acl public-read",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

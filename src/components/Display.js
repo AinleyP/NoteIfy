@@ -29,6 +29,7 @@ class Display extends Component {
                             <input
                                 className="textboxstyle"
                                 ref='input'
+                                placeholder="Bb9sus4"
                                 id="query"
                                 type="text"
                                 spellCheck="false"

@@ -17,8 +17,8 @@ const drawingPiano = (canvas, scaleX, scaleY, selectedNote) => {
 
     const canvasW = window.innerWidth;
     const canvasH = window.innerHeight;
-    const pianoW = 700;
-    const pianoH = 170;
+    const pianoW = 600;
+    const pianoH = 150;
     const pianoX = (canvasW / 2) - (pianoW / 2);
     const pianoY = (canvasH / 2) - (pianoH / 2);
 

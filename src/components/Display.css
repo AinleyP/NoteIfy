@@ -1,12 +1,10 @@
 .outer {
     display: table;
-
     height: 100%;
     width: 100%;
     padding: 0; 
     position: fixed;
     z-index:1000;
-    
 
 }
   
@@ -36,7 +34,7 @@ input[type="text"] {
     color: #000;
     background: none;
     display: block;
-    width: 50%;
+    width: 60%;
     font-size: 1.7em;
     box-shadow: none;
     border: 3px solid #efb4b4;
@@ -50,6 +48,4 @@ canvas {
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
- 
-
 }
