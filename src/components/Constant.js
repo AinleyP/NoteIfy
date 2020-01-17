@@ -691,8 +691,6 @@ export const noteData = {
         'B7sus4': [N['B'], N2['E'], N2['F#'], N2['A']],
         'B9sus4': [N['B'], N2['E'], N2['F#'], N2['A'], N3['C#']],
 
-        // , A,
-
     }
 
 }
