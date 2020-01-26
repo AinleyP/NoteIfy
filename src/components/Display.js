@@ -39,9 +39,6 @@ class Display extends Component {
                                 autofocus
 
                             />
-                            <div>
-                                <a>Hello</a>
-                            </div>
                         </div>
                     </div>
                 </div>
