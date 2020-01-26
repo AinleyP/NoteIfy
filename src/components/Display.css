@@ -34,7 +34,7 @@ input[type="text"] {
     color: #000;
     background: none;
     display: block;
-    width: 60%;
+    width: 50%;
     font-size: 1.7em;
     box-shadow: none;
     border: 3px solid #efb4b4;
@@ -48,4 +48,10 @@ canvas {
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
 }
